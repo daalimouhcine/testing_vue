@@ -1,5 +1,5 @@
 <template>
-    <form id="Employee-input" action="" method="post">
+    <form id="Employee" action="" method="post">
         <div>
             <label for="fullName">Full Name</label>
             <input type="text" name="fullName">
@@ -8,6 +8,7 @@
             <label for="email">Full Name</label>
             <input type="email" name="email">
         </div>
+        <input type="submit" value="Add">
     </form>
 </template>
 
@@ -17,4 +18,3 @@
     }
 </script>
 
-<style scoped></style>
