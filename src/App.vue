@@ -2,6 +2,7 @@
   <div id="app" class="small-container">
     <h2>Add Employee</h2>
     <Employee-input />
+    
     <h2>Employees</h2>
     <employee-table />
   </div>
