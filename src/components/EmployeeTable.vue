@@ -1,5 +1,5 @@
 <template>
-  <div id="employee-table">
+  <div id="employee">
     <table>
       <thead>
         <tr>
@@ -10,15 +10,18 @@
       <tbody>
         <tr>
           <td>Richard Hendricks</td>
-          <td>richard@piedpiper.com</td>
+          <td>richard@gmail.com</td>
+          <button>delete</button>
         </tr>
         <tr>
           <td>Bertram Gilfoyle</td>
-          <td>gilfoyle@piedpiper.com</td>
+          <td>gilfoyle@gmail.com</td>
+          <button>delete</button>
         </tr>
         <tr>
           <td>Dinesh Chugtai</td>
-          <td>dinesh@piedpiper.com</td>
+          <td>dinesh@gmail.com</td>
+          <button>delete</button>
         </tr>
       </tbody>
     </table>
@@ -30,5 +33,3 @@
     name: 'employee-table',
   }
 </script>
-
-<style scoped></style>
