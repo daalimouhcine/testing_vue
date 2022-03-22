@@ -11,17 +11,23 @@
         <tr>
           <td>Richard Hendricks</td>
           <td>richard@gmail.com</td>
-          <button>delete</button>
+          <a href="#">
+            <button>delete</button>
+          </a>
         </tr>
         <tr>
           <td>Bertram Gilfoyle</td>
           <td>gilfoyle@gmail.com</td>
-          <button>delete</button>
+          <a href="#">
+            <button>delete</button>
+          </a>
         </tr>
         <tr>
           <td>Dinesh Chugtai</td>
           <td>dinesh@gmail.com</td>
-          <button>delete</button>
+          <a href="#">
+            <button>delete</button>
+          </a>
         </tr>
       </tbody>
     </table>
@@ -33,3 +39,4 @@
     name: 'employee-table',
   }
 </script>
+
